@@ -1,0 +1,27 @@
+<form action="action_page.php" style="border:1px solid #ccc" method="POST">
+      <h1>Register Form</h1>
+  
+      <label for="email">Email *&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;&emsp;&emsp;</label>
+      <input type="text" name="email" required> <br> <br>
+
+      <label for="psw">Password *&emsp;&emsp;&emsp;&nbsp;&nbsp;&nbsp;&emsp;&emsp;</label>
+      <input type="password" name="psw" required>
+  
+      <label for="psw-repeat">Confirm Password *</label>
+      <input type="password" name="psw-repeat" minlength="8" required>
+      <p>(Min length 8 characters)</p>
+
+      <label for="phone">Phone *&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;</label>
+      <input type="tel" name="phone"> <br><br>
+      
+      <a>Sex&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp;&emsp;&emsp;</a>
+      <input type="radio" name="gender" id="male" value="male">
+      <label for="male">Male</label>
+
+      <input type="radio" name="gender" id="female" value="female"> 
+      <label for="female">Female</label> <br><br>
+      
+      <a>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;</a>
+      <button type="button" class="cancelbtn">Clear</button>
+      <button type="submit" class="signupbtn">Send</button>
+  </form>
